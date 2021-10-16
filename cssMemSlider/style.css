@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  font: bold 3rem Georgia, sans-serif;
+  font: bold 3rem Georgia, serif;
   color:coral;
   margin-bottom: 2%;
 }
@@ -43,4 +43,31 @@ h1 {
   left: 0;
   bottom: 0;
   right: 0;
+  display: flex;
+  z-index: 1;
+}
+
+.slides p {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  font: 2rem Garamond, serif;
+  color:darkorange;
+  opacity: 0;
+}
+
+.slide1 {
+  background: center / cover no-repeat url("./img/slide1.jpg");
+}
+
+.slide2 {
+  background: center / cover no-repeat url("./img/slide2.jpg");
+}
+
+.slide3 {
+  background: center / cover no-repeat url("./img/slide3.jpg");
+}
+
+.slide4 {
+  background: center / cover no-repeat url("./img/slide4.jpg");
 }
