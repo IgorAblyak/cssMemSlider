@@ -7,3 +7,40 @@
 body {
 	background-image: url(./img/background.jpg);
 }
+
+.container {
+  display: flex;;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2% 5%;
+}
+
+.container input {
+  display: none;
+}
+
+h1 {
+  font: bold 3rem Georgia, sans-serif;
+  color:coral;
+  margin-bottom: 2%;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .9);
+}
+
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
