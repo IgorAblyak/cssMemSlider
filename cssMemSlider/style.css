@@ -118,6 +118,10 @@ a:hover > label:after,
   transform: translate(-50%, -50%);
 }
 
+a:active > label:after {
+  background-color: #ff6450;
+}
+
 #slide1:checked ~ .slider .slide1,
 #slide2:checked ~ .slider .slide2,
 #slide3:checked ~ .slider .slide3,
